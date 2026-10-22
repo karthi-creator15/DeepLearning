@@ -1,8 +1,7 @@
-# Week 3 Assessment — Deep Learning + NLP
+Deep Learning + NLP
 
-This repository contains separate runnable Python files for all four assessment tasks.
 
-## Project structure
+Project structure
 
 ```text
 week3_github_project/
@@ -28,7 +27,7 @@ Python 3.10–3.12 is recommended. Some PyTorch/Transformers packages may not ye
 
 Install dependencies for each task using its requirements file. Run each task from its own folder so generated model files and graphs are kept with that task.
 
-### Task 1 — Neural network fundamentals
+### Task 1
 
 ```bash
 cd task1_neural_network
@@ -38,7 +37,7 @@ python main.py
 
 Trains a 2-4-1 XOR network, tests activation/loss functions, confirms gradients with PyTorch autograd, and saves loss plots.
 
-### Task 2 — PyTorch training pipeline
+### Task 2
 
 ```bash
 cd task2_pytorch_pipeline
@@ -48,7 +47,7 @@ python main.py
 
 Uses scikit-learn's breast cancer dataset, StandardScaler, Dataset/DataLoader, an MLP, early stopping, state-dict saving/reloading, and logistic regression comparison.
 
-### Task 3 — NLP baseline and embeddings
+### Task 3
 
 ```bash
 cd task3_nlp_baseline
@@ -58,7 +57,7 @@ python main.py
 
 Builds a synthetic labelled 360-text sentiment dataset, trains TF-IDF + Logistic Regression, prints metrics and class-specific words, and saves the pipeline. GloVe vectors are downloaded by Gensim on first use and require internet access.
 
-### Task 4 — Transformers and FastAPI
+### Task 4
 
 ```bash
 cd task4_transformers_api
