@@ -1,0 +1,9 @@
+numpy
+scikit-learn
+joblib
+torch
+transformers
+datasets
+accelerate
+fastapi
+uvicorn
