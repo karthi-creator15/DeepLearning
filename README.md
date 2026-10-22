@@ -1,26 +1,6 @@
 Deep Learning + NLP
 
 
-Project structure
-
-```text
-week3_github_project/
-├── task1_neural_network/
-│   ├── main.py
-│   └── requirements.txt
-├── task2_pytorch_pipeline/
-│   ├── main.py
-│   └── requirements.txt
-├── task3_nlp_baseline/
-│   ├── main.py
-│   └── requirements.txt
-├── task4_transformers_api/
-│   ├── main.py
-│   └── requirements.txt
-├── .gitignore
-└── README.md
-```
-
 ## Requirements
 
 Python 3.10–3.12 is recommended. Some PyTorch/Transformers packages may not yet support every newest Python release.
